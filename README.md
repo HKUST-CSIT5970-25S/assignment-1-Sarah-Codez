@@ -76,12 +76,11 @@
     | Connection                | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
     | N. Virginia - Oregon      |        32.4        |     64.006     |
-    | N. Virginia - N. Virginia |        40200(40.2 Gbits/sec)        |     0.022     |
+    | N. Virginia - N. Virginia |        4420(4.42 Gbits/sec)        |     0.139     |
     | Oregon - Oregon           |        4530(4.53 Gbits/sec)        |     0.134     |
  
     > Region: US East (N. Virginia), US West (Oregon). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. All instances are `c5.large`. Note: Use public IP address when using iPerf within the same region.
     
      `Answer:`
 
-    > (1) Inter-Region Performance: The network performance is significantly lower. TCP bandwidth is low and RTT is high, indicating that transferring data between regions is less efficient.
-    > (2) Intra-Region Performance:  Both show much better performance, especially N. Virginia, which has the highest TCP bandwidth and lowest RTT.
+    > The network performance for connections within the same region (N. Virginia to N. Virginia and Oregon to Oregon) is significantly better than for cross-region connections (N. Virginia to Oregon).
