@@ -84,4 +84,4 @@
      `Answer:`
 
     > (1) Inter-Region Performance: The network performance is significantly lower. TCP bandwidth is low and RTT is high, indicating that transferring data between regions is less efficient.
-    > (2) Intra-Region Performance: Both show much better performance, especially N. Virginia, which has the highest TCP bandwidth and lowest RTT.
+    > (2) Intra-Region Performance:  Both show much better performance, especially N. Virginia, which has the highest TCP bandwidth and lowest RTT.
